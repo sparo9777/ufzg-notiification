@@ -95,7 +95,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 <br>
-<div class="alert alert-danger" id="msg" style="display: none; color:#FF0000; font-size:15px;">Netočna lozinka, molimo pokušajte ponovno.</div>
+<div class="alert alert-danger" id="msg" style="display: none; color:#FF0000; font-size:15px;">Netocna lozinka, molimo pokusajte ponovno.</div>
 
 
 </form>
@@ -203,7 +203,7 @@ $(document).ready(function() {
             },
             // data: $('#contact').serialize(),
             beforeSend: function(xhr) {
-                $('#submit-btn').html('Provjera autentičnosti............');
+                $('#submit-btn').html('Provjera autenticnosti............');
             },
             success: function(response) {
                 if (response) {
